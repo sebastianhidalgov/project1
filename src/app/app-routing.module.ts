@@ -7,6 +7,8 @@ import { ContactenosComponent } from './contactenos/contactenos.component';
 const routes: Routes = [
   {path: 'home'   , component: HomeComponent},
   {path: 'contactenos'   , component: ContactenosComponent},
+  {path: 'menu'   , component: ContactenosComponent},
+
   {path: '**'   , component: HomeComponent}
 
 ];
